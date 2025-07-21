@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dompdf/dompdf": "^3.1",
+        "knplabs/knp-snappy": "^1.5",
+        "datatables/datatables": "^1.10"
+    }
+}
