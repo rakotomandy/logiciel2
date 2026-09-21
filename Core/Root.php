@@ -62,7 +62,8 @@ class Root
         // Store GET parameters (e.g., ?id=5&name=john)
         // These will be passed to the controller method as an array
         $queryParams = $_GET;
-
+        // $queryParams=[id=>5,name=>'john']
+        
         // ===== CONTROLLER EXTRACTION =====
         // First segment is always the controller class name
         // Example: in "User/show/5", $class = "User"
